@@ -81,18 +81,7 @@ function Home() {
           </div>
         </section>
 
-        {/* Additional Section: Testimonials */}
-        <section className="py-8 bg-white z-50 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
-          <h2 className="font-bold text-3xl">What Our Users Say</h2>
-          <TestimonialCard
-            quote="This AI resume builder is a game-changer! I landed my dream job thanks to the tailored suggestions and easy-to-use templates."
-            author="Jane Doe"
-          />
-          <TestimonialCard
-            quote="Effortless and efficient! I was able to create a professional resume within minutes. Highly recommended."
-            author="John Smith"
-          />
-        </section>
+       
       </div>
     </div>
   )
@@ -118,13 +107,6 @@ function FeatureCard({ icon, title, description }) {
   )
 }
 
-function TestimonialCard({ quote, author }) {
-  return (
-    <div className="mt-8 max-w-lg mx-auto">
-      <p className="text-lg italic text-gray-700">"{quote}"</p>
-      <h4 className="mt-4 font-semibold text-gray-900">- {author}</h4>
-    </div>
-  )
-}
+
 
 export default Home
