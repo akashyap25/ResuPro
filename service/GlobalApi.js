@@ -1,3 +1,5 @@
+
+
 const dummyResumes = [
     { 
         id: 1, 
@@ -342,5 +344,6 @@ export default {
     GetUserResumes,
     UpdateResumeDetail,
     GetResumeById,
-    DeleteResumeById
+    DeleteResumeById,
+    dummyResumes
 };
