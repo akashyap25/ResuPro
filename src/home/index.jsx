@@ -1,13 +1,12 @@
 import React from 'react'
 import Header from '@/components/custom/Header'
-import { UserButton } from '@clerk/clerk-react'
 import { AtomIcon, Edit, Share2, FileText, CheckCircle, Users } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 function Home() {
   return (
     <div>
-      <Header/>
+      <Header />
       <div>
         <section className="z-50">
           <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
@@ -18,10 +17,10 @@ function Home() {
               Effortlessly Craft a Standout Resume with Our AI-Powered Builder, Tailored to Your Needs.
             </p>
             <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-            <Link to={'/dashboard'}>
-                    <a href="/dashboard" className="inline-flex justify-center items-center py-2 px-3 text-base font-medium text-center text-white rounded-lg bg-primary hover:bg-primary focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-                Dashboard
-              </a>
+              <Link to={'/dashboard'}>
+                <a href="/dashboard" className="inline-flex justify-center items-center py-2 px-3 text-base font-medium text-center text-white rounded-lg bg-primary hover:bg-primary focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                  Dashboard
+                </a>
               </Link>
             </div>
           </div>
@@ -80,8 +79,6 @@ function Home() {
             />
           </div>
         </section>
-
-       
       </div>
     </div>
   )
@@ -106,7 +103,5 @@ function FeatureCard({ icon, title, description }) {
     </div>
   )
 }
-
-
 
 export default Home
