@@ -10,6 +10,7 @@ function Header() {
             <Link to={'/'}>
                 <h1 className='text-4xl font-bold text-primary'>Resu Pro</h1>
             </Link>
+            <div className='flex justify-between gap-12'>
             {isSignedIn ?
                 <div className='flex gap-12 items-center'>
                     <Link to={'/dashboard'}>
@@ -21,7 +22,17 @@ function Header() {
                 <Link to={'/auth/sign-in'}>
                     <Button>Login</Button>
                 </Link>
+                
             }
+            <Link to={'https://yourresumescore.streamlit.app/'} target='_blank'>
+                    <Button>🚀 Score My Resume
+                    </Button>
+                </Link>
+
+
+            </div>
+            
+            
         </div>
     )
 }

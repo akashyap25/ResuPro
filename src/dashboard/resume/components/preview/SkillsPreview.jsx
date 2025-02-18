@@ -1,9 +1,9 @@
 import React from 'react'
 
-function SkillsPreview({resumeInfo}) {
+function SkillsPreview({resumeInfo,template}) {
   return (
     <div className='my-6'>
-    <h2 className='text-center font-bold text-sm mb-2'
+    <h2 className={template?.subheading}
     style={{
         color:resumeInfo?.themeColor
     }}

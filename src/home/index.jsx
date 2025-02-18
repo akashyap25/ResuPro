@@ -22,6 +22,11 @@ function Home() {
                   Dashboard
                 </a>
               </Link>
+              <Link to={'https://resumeclassifiersys.streamlit.app/'} >
+                <a href="https://resumeclassifiersys.streamlit.app/" className="inline-flex justify-center items-center py-2 px-3 text-base font-medium text-center text-primary border-2 border-primary rounded-lg bg-white hover:bg-purple-100 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                🔄 Categorize Now
+                </a>
+              </Link>
             </div>
           </div>
         </section>
